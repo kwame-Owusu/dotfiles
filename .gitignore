@@ -1,0 +1,34 @@
+# Secrets - NEVER commit these
+.git-credentials
+.config/gh/hosts.yml
+.config/gh/config.yml.bak
+.bootdev.yaml
+.ssh/
+.aws/
+.azure/
+.docker/config.json
+
+# Histories & caches
+.*_history
+.viminfo
+.lesshst
+.zcompdump*
+.wget-hsts
+.python_history
+
+# Editor junk
+*.swp
+*.swo
+.DS_Store
+
+# Toolchains / frameworks (reinstalled per machine)
+.oh-my-zsh/
+.tmux/plugins/
+.cargo/
+.rustup/
+.bun/
+.npm/
+.dotnet/
+
+# Local scratch
+.dotfiles-backup/

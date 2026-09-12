@@ -1,0 +1,18 @@
+[user]
+	email = alfredowusu595@gmail.com
+	name = kwame-Owusu
+[init]
+	defaultBranch = main
+# Automatically load uni settings for anything inside uni folder
+[includeIf "gitdir:~/uni-dev/"]
+    path = ~/.gitconfig-uni
+[credential "https://github.com"]
+	helper = 
+	helper = !gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !gh auth git-credential
+[pull]
+	rebase = true
+[credential]
+	helper = store
